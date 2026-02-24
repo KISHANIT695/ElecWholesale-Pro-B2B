@@ -1,0 +1,15 @@
+# Git शुरू करें
+git init
+
+# सभी फाइलों को जोड़ें
+git add .
+
+# अपना पहला मैसेज लिखें
+git commit -m "Initial Commit: Authentic B2B Wholesale System with GST and Bulk Pricing"
+
+# अपनी रिपॉजिटरी से कनेक्ट करें (URL अपनी repo वाला डालें)
+git remote add origin https://github.com/YOUR_USERNAME/ElecWholesale-Pro-B2B.git
+
+# कोड अपलोड करें
+git branch -M main
+git push -u origin main

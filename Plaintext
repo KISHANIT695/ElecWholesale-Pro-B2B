@@ -1,0 +1,19 @@
+/ElecWholesale-Pro-B2B
+│
+├── /server                 (Backend - दिमाग)
+│   ├── /models             (Data structure: User.js, Product.js)
+│   ├── /routes             (Pathways: authRoutes.js, productRoutes.js)
+│   ├── /utils              (Logic: calculator.js)
+│   ├── server.js           (Main entry point)
+│   └── .env                (Secret keys/DB links)
+│
+├── /client                 (Frontend - चेहरा)
+│   ├── /public
+│   ├── /src
+│   │   ├── /components     (UI: Navbar, ProductCard, AdminForm)
+│   │   ├── /i18n           (Language files)
+│   │   ├── App.js          (Main layout)
+│   │   └── index.js
+│   └── package.json
+│
+└── README.md               (Project documentation)
